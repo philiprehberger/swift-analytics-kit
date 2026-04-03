@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest a feature for AnalyticsKit
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the feature
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Why this feature would be useful
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-api
+    attributes:
+      label: Proposed API
+      description: How you envision the API looking
+      render: swift
+    validations:
+      required: false
